@@ -5,6 +5,7 @@
   try {
     const OWNER = 'doggodgcodes';
     const REPO = 'mine-chicken-dg-linker';
+    const repoDgIo = 'doggodgcodes.github.io';
 
     // You can override branch and path by adding data-branch or data-path attributes to the <script> tag:
     // <script src=".../linker.js" data-branch="main" data-path="linker.css"></script>
@@ -16,8 +17,10 @@
 
     const branch = (currentScript && currentScript.getAttribute('data-branch')) || 'main';
     const cssPath = (currentScript && currentScript.getAttribute('data-path')) || 'linker.css';
+    const cssPathDgIo = (currentScript && currentScript.getAttribute('data-path')) || 'mine-chicken-dg/app.css';
 
     const cdnUrl = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@${branch}/${cssPath}`;
+    const cdnUrlDg = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@${branch}/${cssPathDgIo}`;
     const linkId = 'mine-chicken-dg-linker';
 
     // Prevent double injection
@@ -26,6 +29,11 @@
       linkEl.id = linkId;
       linkEl.rel = 'stylesheet';
       linkEl.href = cdnUrl;
+      linkEl.crossOrigin = 'anonymous';
+      const linkEl = document.createElement('link');
+      linkEl.id = linkId;
+      linkEl.rel = 'stylesheet';
+      linkEl.href = cdnUrlDg;
       linkEl.crossOrigin = 'anonymous';
 
       // Optional: add load/error listeners to know when CSS finishes loading
