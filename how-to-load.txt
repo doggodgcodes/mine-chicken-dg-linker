@@ -1,0 +1,4 @@
+paste in the on the site to run
+
+
+<script src="https://cdn.jsdelivr.net/gh/doggodgcodes/mine-chicken-dg-linker@main/linker.js" async></script>
