@@ -19,8 +19,8 @@
     const cssPath = (currentScript && currentScript.getAttribute('data-path')) || 'linker.css';
     const cssPathDgIo = (currentScript && currentScript.getAttribute('data-path')) || 'mine-chicken-dg/app.css';
 
-    const cdnUrl = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@${branch}/${cssPath}`;
-    const cdnUrlDg = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@${branch}/${cssPathDgIo}`;
+    const cdnUrl = `https://cdn.jsdelivr.net/gh/doggodgcodes/mine-chicken-dg-linker@main/linker.css`;
+    const cdnUrlDg = `https://cdn.jsdelivr.net/gh/doggodgcodes/doggodgcodes.github.io@main/mine-chicken-dg/app.css`;
     const linkId = 'mine-chicken-dg-linker';
 
     // Prevent double injection
