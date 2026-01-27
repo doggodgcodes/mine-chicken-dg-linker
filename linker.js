@@ -30,11 +30,11 @@
       linkEl.rel = 'stylesheet';
       linkEl.href = cdnUrl;
       linkEl.crossOrigin = 'anonymous';
-      const linkEl = document.createElement('link');
-      linkEl.id = linkId;
-      linkEl.rel = 'stylesheet';
-      linkEl.href = cdnUrlDg;
-      linkEl.crossOrigin = 'anonymous';
+      const linkElDg = document.createElement('link');
+      linkElDg.id = linkId;
+      linkElDg.rel = 'stylesheet';
+      linkElDg.href = cdnUrlDg;
+      linkElDg.crossOrigin = 'anonymous';
 
       // Optional: add load/error listeners to know when CSS finishes loading
       linkEl.addEventListener('load', function () {
