@@ -3,6 +3,15 @@
 // Logs: "doggodgcodes is connected to the site btw"
 (function () {
   try {
+// Create an h6 element
+const h6 = document.createElement("h6");
+
+// Set the text inside the h6 element
+h6.textContent = "ᵈᵒᵍᵍᵒᵈᵍᶜᵒᵈᵉˢ ᶦˢ ᵒⁿ ᵗʰᶦˢ ᵖᵃᵍᵉ ⁽ᶦⁿ ᶜᵒᵈᵉ⁾";
+
+// Append the h6 element to the body
+document.body.appendChild(h6);
+    
     const OWNER = 'doggodgcodes';
     const REPO = 'mine-chicken-dg-linker';
     const repoDgIo = 'doggodgcodes.github.io';
