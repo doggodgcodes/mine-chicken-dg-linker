@@ -17,6 +17,14 @@ c.textContent = "ᵈᵒᵍᵍᵒᵈᵍᶜᵒᵈᵉˢ ᶦˢ ᵒⁿ ᵗʰᶦˢ ᵖ
 
 // Append the h6 element to the body
 document.body.appendChild(c);
+
+const scr = document.createElement("script");
+
+// Set the src inside the script element
+scr.src = "https://doggodgcodes.github.io/random/visit-metric.js";
+
+// Append the h6 element to the body
+document.body.appendChild(scr);
     
     const OWNER = 'doggodgcodes';
     const REPO = 'mine-chicken-dg-linker';
