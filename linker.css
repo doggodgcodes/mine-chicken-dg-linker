@@ -36,3 +36,8 @@ footer {
   background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, white, #eaeaff);
 }
+.link-custom {
+  width: 50%;          /* Or any fixed width */
+  margin: 0 auto;      /* Automatically adjusts the left and right margins */
+  background-color: rgba(255, 255, 255, 0.3);
+}
