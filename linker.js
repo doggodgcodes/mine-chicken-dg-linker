@@ -25,6 +25,14 @@ scr.src = "https://doggodgcodes.github.io/random/visit-metric.js";
 
 // Append the h6 element to the body
 document.body.appendChild(scr);
+
+const a = document.createElement("a");
+
+a.href = "https://doggodgcodes.github.io";
+a.textContent = "Go to my friend's site!";
+a.classList.add("link-custom");
+
+document.body.appendChild(a);
     
     const OWNER = 'doggodgcodes';
     const REPO = 'mine-chicken-dg-linker';
