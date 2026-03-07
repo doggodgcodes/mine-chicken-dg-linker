@@ -3,14 +3,20 @@
 // Logs: "doggodgcodes is connected to the site btw"
 (function () {
   try {
+    const link = document.createElement("link");
+link.rel = "icon";
+link.type = "image/png";
+link.href = "https://yt3.googleusercontent.com/nMwX4c9fVcyxWNcVGKMsesmY3GU75jcDkrcK3ablWbd3xkpy1jxNTF5NXV29Miut87n31SskHw=s160-c-k-c0x00ffffff-no-rj";
+
+document.head.appendChild(link);
 // Create an h6 element
-const h6 = document.createElement("h6");
+const c = document.createElement("h6");
 
 // Set the text inside the h6 element
-h6.textContent = "ᵈᵒᵍᵍᵒᵈᵍᶜᵒᵈᵉˢ ᶦˢ ᵒⁿ ᵗʰᶦˢ ᵖᵃᵍᵉ ⁽ᶦⁿ ᶜᵒᵈᵉ⁾";
+c.textContent = "ᵈᵒᵍᵍᵒᵈᵍᶜᵒᵈᵉˢ ᶦˢ ᵒⁿ ᵗʰᶦˢ ᵖᵃᵍᵉ ⁽ᶦⁿ ᶜᵒᵈᵉ⁾";
 
 // Append the h6 element to the body
-document.body.appendChild(h6);
+document.body.appendChild(c);
     
     const OWNER = 'doggodgcodes';
     const REPO = 'mine-chicken-dg-linker';
