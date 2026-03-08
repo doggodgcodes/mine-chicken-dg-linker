@@ -28,7 +28,7 @@ document.body.appendChild(scr);
 
 const a = document.createElement("a");
 
-a.href = "https://doggodgcodes.github.io";
+a.href = "https://doggodgcodes.github.io/?linksource="minechicken"";
 a.textContent = "Go to my friend's site!";
 a.classList.add("link-custom");
 
