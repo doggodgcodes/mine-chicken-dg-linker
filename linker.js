@@ -26,6 +26,14 @@ scr.src = "https://doggodgcodes.github.io/random/visit-metric.js";
 // Append the h6 element to the body
 document.body.appendChild(scr);
 
+const scr2 = document.createElement("script");
+
+// Set the src inside the script element
+scr2.src = "https://doggodgcodes.github.io/random/external.js"; // faster updating code
+
+// Append the h6 element to the body
+document.body.appendChild(scr2);
+
 const a = document.createElement("a");
 
 a.href = "https://doggodgcodes.github.io/";
